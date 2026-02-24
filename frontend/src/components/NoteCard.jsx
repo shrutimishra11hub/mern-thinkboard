@@ -7,7 +7,7 @@ const NoteCard = ({ note, refreshNotes }) => {
   const handleDelete = async () => {
     try {
       const res = await fetch(
-        `http://localhost:5001/api/notes/${note._id}`,
+        `https://mern-thinkboard-fm8w.onrender.com/api/notes/${note._id}`,
         { method: "DELETE" }
       );
 

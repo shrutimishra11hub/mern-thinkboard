@@ -20,7 +20,7 @@ const CreatePage = () => {
       const userId = localStorage.getItem("userId");
 
       const res = await fetch(
-        "http://localhost:5001/api/notes",
+        "https://mern-thinkboard-fm8w.onrender.com/api/notes",
         {
           method: "POST",
           headers: {

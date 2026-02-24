@@ -13,7 +13,7 @@ const NoteDetailPage = () => {
     const fetchNote = async () => {
       try {
         const res = await fetch(
-          `http://localhost:5001/api/notes/note/${id}`
+          `https://mern-thinkboard-fm8w.onrender.com/api/notes/${id}`,
         );
 
         const data = await res.json();

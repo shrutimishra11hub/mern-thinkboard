@@ -21,7 +21,7 @@ const LoginPage = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:5001/api/auth/login",
+        "https://mern-thinkboard-fm8w.onrender.com/api/auth/login", 
         {
           method: "POST",
           headers: {

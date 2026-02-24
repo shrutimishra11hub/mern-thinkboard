@@ -18,7 +18,7 @@ const RegisterPage = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:5001/api/auth/register",
+      "https://mern-thinkboard-fm8w.onrender.com/api/notes/user/${userId}",
         {
           method: "POST",
           headers: {

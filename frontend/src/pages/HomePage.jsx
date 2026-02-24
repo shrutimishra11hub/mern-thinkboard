@@ -24,7 +24,7 @@ const HomePage = ({ theme, setTheme }) => {
     const userId = localStorage.getItem("userId");
 
     const res = await fetch(
-      `http://localhost:5001/api/notes/user/${userId}`
+    "https://mern-thinkboard-fm8w.onrender.com/api/notes/user/${userId}"
     );
 
     const data = await res.json();
